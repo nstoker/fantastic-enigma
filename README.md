@@ -1,2 +1,3 @@
-# fantastic-enigma
-A test bed for rails api issues
+# Fantastic Enigma
+
+A testbed for creating a rails api only application, and coming to terms with RSpec.
