@@ -37,5 +37,8 @@ module FantasticEnigma
     # Middleware like session, flash, cookies can be added back manually.
     # Skip views, helpers and assets when generating a new resource.
     config.api_only = true
+
+    config.generators.test_framework :rspec
+    config.generators.integration_tool :rspec
   end
 end
